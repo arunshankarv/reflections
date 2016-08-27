@@ -19,9 +19,14 @@ organized? How would branches help?
 When a critical product milestone is reached and we want to manage change control to avoid impact end users with bugs introduced when major changes are done. Branches help control/group changes into separate spaces without stopping teams from working on the next generation of the product.
 
 How do the diagrams help you visualize the branch structure?
+It indicates when the code stream diverged from the master.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result of merging branches is a consolidation of the branch functionality back
+into the main master branch. It is represented as a way to indicate how the code
+diverges and reconverges at various stages of development
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Gits automatic merging vs. always doing merges
 manually?
+Automatic merging helps avoid tedious edits when mutually exclusive functionality is being merged. The cons of auto-merge is that mutually exclusive edits might not always mean functionally compatible edits.
